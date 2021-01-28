@@ -5,8 +5,7 @@ pipeline{
 
 	stages{
 		stage("checkout"){
-			echo "Hello World" 
-			first
+			first ()
 		}
 	}
 }
