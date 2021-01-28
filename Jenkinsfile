@@ -12,7 +12,7 @@ pipeline{
 	agent any
 
 	stages{
-		stage("checkout"){
+		stage("clone"){
 			steps{
 				echo "Hello"
 				first ()
