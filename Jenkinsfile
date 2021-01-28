@@ -5,7 +5,9 @@ pipeline{
 
 	stages{
 		stage("checkout"){
-			first ()
+			steps{
+				first ()
+			}
 		}
 	}
 }
