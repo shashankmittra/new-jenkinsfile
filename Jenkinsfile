@@ -4,8 +4,8 @@ pipeline{
 	agent any
 
 	stages{
-		echo "Hello World" 
 		stage("checkout"){
+			echo "Hello World" 
 			first
 		}
 	}
