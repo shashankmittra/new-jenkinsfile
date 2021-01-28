@@ -9,6 +9,7 @@ pipeline{
 				echo "Hello"
 				first ()
 				echo "done"
+				echo "Workspace location: ${env.WORKSPACE}"
 			}
 		}
 	}
